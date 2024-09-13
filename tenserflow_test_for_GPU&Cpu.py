@@ -42,3 +42,5 @@ if tf.config.list_physical_devices('GPU'):
     train_model("/gpu:0")  # 在GPU上訓練
 else:
     print("未檢測到GPU，跳過GPU訓練")
+
+#github desktop更動測試
